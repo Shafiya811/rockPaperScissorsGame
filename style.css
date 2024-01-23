@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.heading {
+    background-color: #200E3A;
+    height: 5rem;
+    color: white;
+    line-height: 5rem;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.choices {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.choice {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover {
+    background-color: #200E3A;
+    cursor: pointer;
+}
+
+.image {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.messageBox{
+    margin: 2rem;
+
+}
+
+.msg {
+    background-color: #200E3A;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    display: inline;
+}
